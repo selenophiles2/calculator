@@ -6,4 +6,11 @@ y = int(input("y: "))
 print(f"Sum:{x+y}")
 print(f"Sub:{x-y}")
 print(f"Mul:{x*y}")
-print("Div: " + str(x / y))
+
+if y == 0:
+    print ("can't do it")
+else:
+    print(f"Div: {x/y}")
+
+
+
